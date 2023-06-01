@@ -1,0 +1,11 @@
+Tempo grafo: 107757230
+Tempo grafo residual: 16302078
+Tempo grafo residual(delta): 981519279
+Tempo BFS: 36393211269
+Tempo calcula capacidade caminho: 1218879250
+Tempo empurra fluxo: 10146587843
+Vertices: 110594
+Arcos: 508272
+Fluxo: 41538
+Tempo(ns): 48869462740
+Caminhos: 8919

@@ -1,0 +1,33 @@
+
+g++ main.cpp -o a -O3
+./a ./instancias/BVZ-tsukuba15.max CS
+
+
+--- tsukuba3
+Tempo grafo: 339113125
+Tempo grafo residual: 25998975
+Tempo BFS: 85027320192
+Tempo calcula capacidade caminho: 1998680057
+Tempo empurra fluxo: 5545802119
+Vertices: 110594
+Arcos: 506721
+Fluxo: 35379
+Tempo(ns): 92727564900
+Caminhos: 9122
+
+Tempo grafo: 153419963
+Tempo grafo residual: 20144721
+Tempo BFS: 35351662604
+Tempo calcula capacidade caminho: 2056673783
+Tempo empurra fluxo: 5581653657
+Vertices: 110594
+Arcos: 506721
+Fluxo: 35379
+Tempo(ns): 43113980848
+Caminhos: 9122
+
+Rodar os novos testes com -O3
+analisar os blocos de código para os principais algoritmos
+analisar grafo residual 
+
+

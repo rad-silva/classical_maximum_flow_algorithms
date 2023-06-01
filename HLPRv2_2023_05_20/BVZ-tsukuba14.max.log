@@ -1,0 +1,10 @@
+Tempo grafo: 106381042
+Tempo grafo residual: 16218993
+Tempo sort: 117058067815
+Tempo push: 124760330622
+Tempo relabel: 56240409498
+Tempo discharge: 402518921328
+Vertices: 110594
+Arcos: 515315
+Fluxo: 50599
+Tempo(ns): 724105764550
