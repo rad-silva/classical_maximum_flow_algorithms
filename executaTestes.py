@@ -4,8 +4,9 @@ from os.path import isfile, join
 # Compilar programa principal antes de rodar
 # Editar nome do teste e data
 
-method = ["SAP", "CS", "BAP", "HLPRv1", "HLPRv2", "PR"]
-date = "2023_05_20"
+# ["SAP", "CS", "BAP", "HPRv1", "HPRv2", "HPRv4", "HPRv5", "PR"]
+method = ["HPRv1", "HPRv2"]
+date = "2023_06_05"
 
 
 for mtd in method:
