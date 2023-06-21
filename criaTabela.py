@@ -2,10 +2,11 @@ import os
 from os.path import isfile, join
 import sys
 
-mainPath = "/home/ricardo/Downloads/teste"
-instancesFolderPath = "/home/ricardo/Downloads/teste/instancias"
+
+mainPath = "/home/ricardo/Downloads/Fluxo/implementacoes"
+instancesFolderPath = "/home/ricardo/Downloads/Fluxo/implementacoes/instancias"
 extensionFile = ".max"
-testeName = "HLPRv2_2023_06_05"
+testeName = "HPRv2_2023_06_05"
 
 instancesNames = [f for f in os.listdir(instancesFolderPath) if isfile(join(instancesFolderPath, f))]
 instancesNames = [instance for instance in instancesNames if extensionFile in instance]
@@ -33,9 +34,8 @@ for i in instancesNames:
   arcos = levalor("Arcos: ", solucao)
   fluxo = levalor("Fluxo: ", solucao)
   tempo = levalor("Tempo(ns): ", solucao)
-  pushs = levalor("Pushs: ", solucao)
-  relabels = levalor("Relabels: ", solucao)
-  print(i + "," + vertices + "," + arcos + "," + fluxo + "," + tempo + "," + pushs + "," + relabels)
-  arquivoDados.write(i + "," + vertices + "," + arcos + "," + fluxo + "," + tempo +  "," + pushs + "," + relabels + "\n")
-  arquivoDeSolucao.close()
+  push = levalor("Pushs: ", solucao)
+  relabel = levalor("Relabels: ", solucao)
+  print(i + "," + vertices + "," + arcos + "," + fluxo + "," + tempo + "," + push + "," + relabel)
+  arquivoDados.write(i + "," + vertices + "," + arcos + "," + fluxo + "," + tempo +  "," + push + "," + relabel + "\n")
 arquivoDados.close()

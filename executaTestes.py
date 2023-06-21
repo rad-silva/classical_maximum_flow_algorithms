@@ -5,7 +5,7 @@ from os.path import isfile, join
 # Editar nome do teste e data
 
 # ["SAP", "CS", "BAP", "HPRv1", "HPRv2", "HPRv4", "HPRv5", "PR"]
-method = ["HPRv1", "HPRv2"]
+method = ["HPRv2"]
 date = "2023_06_05"
 
 
@@ -13,8 +13,8 @@ for mtd in method:
   mainScript = "./a $instance " + mtd
   testeName = mtd + "_" + date
 
-  mainPath = "/home/ricardo/Downloads/teste"
-  instancesFolderPath = "/home/ricardo/Downloads/teste/instancias"
+  mainPath = "/home/ricardo/Downloads/Fluxo/implementacoes"
+  instancesFolderPath = "/home/ricardo/Downloads/Fluxo/implementacoes/instancias"
   extensionFile = ".max"
 
   instancesNames = [f for f in os.listdir(instancesFolderPath) if isfile(join(instancesFolderPath, f))]

@@ -1,5 +1,5 @@
-#include "graph.h"
-#include "graph.cpp"
+#include "./Graph/graph.h"
+#include "./Graph/graph.cpp"
 
 #include "./Graph/utils/getWord.cpp"
 

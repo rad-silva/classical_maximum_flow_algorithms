@@ -2,12 +2,9 @@
 
 #include "../graph.h"
 #include <queue>
-#include <chrono>
 
 
 bool bfs(ListGraph &Gf, int s, int t, int parent[]) {
-  auto startBFS = std::chrono::steady_clock::now();
-
   int u, v;
   std::queue <int> fila;
   bool visited[Gf.num_vertices() + 1] {};
